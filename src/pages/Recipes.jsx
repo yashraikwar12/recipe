@@ -10,7 +10,7 @@ const Recipes = () => {
       className="w-[50vh] p-2 m-2 shadow-2xl rounded flex flex-col bg-gray-700"
     >
       <img
-        className=" h-[38vh] object-cover overflow-hidden m-2 px-2 rounded"
+        className=" h-[35vh] object-cover overflow-hidden m-2 px-2 rounded"
         src={val.image}
         alt=""
       />
