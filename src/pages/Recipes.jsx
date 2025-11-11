@@ -9,7 +9,11 @@ const Recipes = () => {
       key={val.id}
       className="w-[50vh] p-2 m-2 shadow-2xl rounded flex flex-col bg-gray-700"
     >
-      <img className="w-[20vw] h-[40vh] object-cover overflow-hidden m-2 px-2 rounded" src={val.image} alt="" />
+      <img
+        className=" h-[38vh] object-cover overflow-hidden m-2 px-2 rounded"
+        src={val.image}
+        alt=""
+      />
       <p className="px-4">{val.name}</p>
       <p className="px-4 py-2">{val.cuisine}</p>
       <Link to={`/recipes/details/${val.id}`}>

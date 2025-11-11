@@ -15,7 +15,7 @@ const Details = () => {
         <div className="bg-gray-700 p-5 rounded-lg flex flex-col justify-center items-center text-4xl gap-6">
           <p className="font-semibold text-center capitalize">{recipe.name}</p>
           <img
-            className="w-[40vw] h-[60vh] object-cover rounded-xl shadow-lg"
+            className="  h-[50vh] object-cover rounded-xl shadow-lg"
             src={recipe.image}
             alt=""
           />
