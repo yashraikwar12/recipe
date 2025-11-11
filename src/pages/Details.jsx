@@ -12,7 +12,7 @@ const Details = () => {
   if (x) {
     return (
       <div className="w-full min-h-[80vh] pt-20 flex flex-col justify-center items-center bg-gray-800 text-white">
-        <div className="bg-gray-700 p-5 rounded-lg flex flex-col justify-center items-center text-4xl gap-6">
+        <div className="w-[75vw] bg-gray-700 p-5 rounded-lg flex flex-col justify-center items-center text-4xl gap-6">
           <p className="font-semibold text-center capitalize">{recipe.name}</p>
           <img
             className="  h-[50vh] object-cover rounded-xl shadow-lg"
