@@ -26,7 +26,7 @@ const Create = () => {
           type="url"
           placeholder="enter image url"
         />
-        <small className="text-red-400">Error *</small>
+        {/* <small className="text-red-400">Error *</small> */}
         <input
           className="block border-b outline-0  mb-10"
           {...register("name")}
@@ -44,11 +44,6 @@ const Create = () => {
           {...register("instructions")}
           placeholder="enter the instructions"
         ></textarea>
-
-
-
-
-
 
         <select
           className="block border-b outline-0 mb-5"
