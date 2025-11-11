@@ -18,7 +18,7 @@ const Create = () => {
     navigate("/");
   };
   return (
-    <div className="my-20 mx-30 text-2xl">
+    <div className="my-20 mx-20 text-2xl">
       <form onSubmit={handleSubmit(submit)}>
         <input
           className="block border-b outline-0 mb-5"
